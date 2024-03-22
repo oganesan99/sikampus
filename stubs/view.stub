@@ -1,0 +1,21 @@
+<x-layouts.app>
+  <x-slot:head>
+    <title>Title</title>
+    <meta
+      content="Description"
+      name="description"
+    >
+    <meta
+      content="Keywords"
+      name="keywords"
+    >
+
+    @vite('resources/ts/script.ts')
+  </x-slot:head>
+
+  <x-slot:body>
+    <h1 class="text-3xl font-bold underline">
+      Laravel Page
+    </h1>
+  </x-slot:body>
+</x-layouts.app>

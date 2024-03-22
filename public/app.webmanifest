@@ -1,0 +1,56 @@
+{
+    "start_url": "/",
+    "name": "Laravel",
+    "short_name": "Laravel",
+    "background_color": "#FFFFFF",
+    "categories": ["productivity"],
+    "description": "Laravel Application",
+    "display": "standalone",
+    "display_override": ["window-controls-overlay"],
+    "lang": "id",
+    "orientation": "portrait",
+    "theme_color": "#FFFFFF",
+    "shortcuts": [
+        {
+            "name": "Laravel Shortcuts",
+            "url": "/",
+            "description": "Laravel Shortcuts",
+            "icons": [
+                {
+                    "src": "/static/images/icons/logo.png",
+                    "sizes": "512x512"
+                }
+            ]
+        }
+    ],
+    "icons": [
+        {
+            "src": "/static/images/icons/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/static/images/icons/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "label": "Laravel",
+            "src": "/static/images/screenshots/1.jpg",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "label": "Laravel",
+            "src": "/static/images/screenshots/1.jpg",
+            "sizes": "1080x1920",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }
+    ]
+}
